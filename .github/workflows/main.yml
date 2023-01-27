@@ -1,12 +1,7 @@
-# Name of this action
-name: Jest Automatic Testing
+name: Healthday automated testing
 
-# Event triggers on pull request event
-# For more detail visit https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#on
 on: pull_request
 
-# The jobs this action will run. You can write as many jobs as you want.
-# For more detail on this section visit https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobs
 jobs:
   npm_install:
     runs-on: ubuntu-latest
